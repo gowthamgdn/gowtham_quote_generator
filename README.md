@@ -1,18 +1,20 @@
 # gowtham_quote_generator
 
 ## Overview
-gowtham_quote_generator is a simple Python package that provides motivational quotes. It includes a single function `get_quote()` that returns a random inspirational message.
+gowtham_quote_generatore is a simple Python package that provides motivational quotes. It includes a single function `get_quote()` that returns a random inspirational message.
 
 ## Project Structure
-gowtham_quote_generator/
+```
+my_package/
 │── gowtham_quote_generator/
-│   ├── __init__.py         # Initializes the package and imports get_quote()
-│   ├── main.py             # Main logic to fetch random quotes from a file
+│   ├── __init__.py  # Initializes the package
+│   ├── main.py      # Contains the get_quote function
 │── testing/
-│   ├── main.py             # Script to test the package
-│── setup.py                # Package metadata and dependencies
-│── README.md               # Documentation for the package
-
+│   ├── main.py  # Contains test cases for the package
+│── setup.py
+│── requirements.txt  # Lists package dependencies
+│── README.md
+```
 
 - `__init__.py`: Initializes the package.
 - `main.py`: Contains the `get_quote()` function.
@@ -74,3 +76,4 @@ Gowtham Tadavarthy
 
 ## License
 This project is licensed under the MIT License.
+
