@@ -5,7 +5,7 @@ gowtham_quote_generatore is a simple Python package that provides motivational q
 
 ## Project Structure
 ```
-my_package/
+gowtham_quote_generator/
 │── gowtham_quote_generator/
 │   ├── __init__.py  # Initializes the package
 │   ├── main.py      # Contains the get_quote function
